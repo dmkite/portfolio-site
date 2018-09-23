@@ -13,7 +13,7 @@ header{
     transform:rotate(45deg);
     position:absolute;
     top:-300px;
-    left:100px;
+    left: 50px;
     z-index: 99;
 }
 
@@ -24,20 +24,42 @@ header{
     transform: rotate(45deg);
     width:200vh;
     top:-28px;
+    left:-50px;
     position:absolute;
 }
 
 h1{
-    font: 900 120px/100px 'playfair', display;
+    font: 900 100px/80px 'playfair', display;
     color:white;
     position:absolute;
     transform:rotate(-45deg);
-    margin-left:290px;
-    margin-top:-20px;
+    margin-left:300px;
+    margin-top:50px;
     text-transform:uppercase;
 
         
 }
 h1 span{
     display: block;
+}
+
+/*===== Navigation ======*/
+nav{
+    z-index:9999;
+    position:static;
+}
+
+.navbar-toggler{
+    border-radius:50%;
+    width:50px;
+    height:50px;
+    border: 2px solid white !important;
+    margin:0;
+    padding:0;
+    z-index:999;
+    opacity:1;
+}
+
+.nav-link{ 
+    color:black !important;
 }
