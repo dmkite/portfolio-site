@@ -1,5 +1,5 @@
 header{
-    background-image: url("https://images.pexels.com/photos/1204649/pexels-photo-1204649.jpeg");
+    background-image: url("../img/hero-image.jpeg");
     height:100vh;
     position:relative;
     overflow:hidden
@@ -12,20 +12,20 @@ header{
     transform-origin:left;
     transform:rotate(45deg);
     position:absolute;
-    top:-300px;
+    top:-198px;
     left: 50px;
     z-index: 99;
 }
 
 .small-stripe{
     background-color: rgba(139,0,0,.5);
-    height:50px;
-    transform-origin:left;
+    height: 60px;
+    transform-origin: left;
     transform: rotate(45deg);
-    width:200vh;
-    top:-28px;
-    left:-50px;
-    position:absolute;
+    width: 200vh;
+    top: 76px;
+    left: -50px;
+    position: absolute;
 }
 
 h1{
@@ -61,15 +61,19 @@ nav{
 }
 
 .nav-link{ 
-    color:black !important;
+    /* color:black !important; */
+    font-weight:bold;
+    /* color:#555 !important; */
+    font-size:18px;
 }
 
 /*===== Section 1 =====*/
-.section-1{
+.section{
     height:100vh;
+    margin-bottom:20px;
 }
 
-.section-1 .col-sm-4{
+.section .col-sm-4{
     background-image: url("../img/section-1.jpeg");
     background-size: 500%;
     overflow:hidden
@@ -121,24 +125,24 @@ p{
     z-index:9999;
 }
 
-.section-1 .col-sm-8{
+.section .col-sm-8{
     position:relative; 
     overflow:hidden;
 }
 
-.section-1 .large-stripe{
+.section .large-stripe{
     height: 200px;
     top: 0px;
     left: -74px;
     transform:rotate(33deg);
 }
 
-.section-1 .small-stripe{
+.section .small-stripe{
     transform:rotate(0deg);
     top:30%
 }
 
-.section-1 img{
+.section img{
     width:100%;
     margin: 50px 0 20px
 }
@@ -146,4 +150,53 @@ p{
 .col a{
     position: relative;
     z-index:9999;
+}
+
+/*===== Section 2 =====*/
+.section:nth-of-type(2) .col-sm-4{
+    background-position: -33% 0%
+}
+
+.section:nth-of-type(2) .large-stripe{
+    height: 200px;
+    top: -50px;
+    left: -74px;
+    transform:rotate(53deg);
+}
+
+.section:nth-of-type(2) .small-stripe{
+    transform:rotate(10deg);
+    top:40%
+}
+
+
+
+/*===== Section 3 =====*/
+.section:nth-of-type(3) .col-sm-4{
+    background-position: -66% 0%
+}
+
+.section:nth-of-type(3) .large-stripe{
+    height: 200px;
+    top: 0px;
+    left: -74px;
+    transform:rotate(-45deg);
+}
+
+.section:nth-of-type(3) .small-stripe{
+    transform:rotate(12deg);
+    top:25%
+}
+
+/*===== Section 4 =====*/
+.section:nth-of-type(4) .col-sm-4{
+    background-size:600%;
+    background-position: -20% 0%
+}
+
+/*===== Footer =====*/
+footer{
+    background-color:#111;
+    color:white;
+    text-align:center;
 }
