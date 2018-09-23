@@ -63,3 +63,87 @@ nav{
 .nav-link{ 
     color:black !important;
 }
+
+/*===== Section 1 =====*/
+.section-1{
+    height:100vh;
+}
+
+.section-1 .col-sm-4{
+    background-image: url("../img/section-1.jpeg");
+    background-size: 500%;
+    overflow:hidden
+}
+
+.titles{
+    width:150px;
+    min-height:100vh;
+    margin:0 auto;
+}
+
+h2{
+    font: 700 55px/45px 'playfair', display;
+    color:white;
+    letter-spacing:2px;
+
+}
+
+
+h3{
+    font: 700 28px/26px 'playfair', display;
+    color:white;
+    word-wrap: break-word
+}
+
+.title-bar:nth-of-type(1){
+    height:100px;
+    background-color:white;
+    margin-bottom:10px
+}
+
+.title-bar:nth-of-type(2){
+    height:100vh;
+    background-color:white;
+}
+
+.first-letter{
+    font: 700 36px/24px 'playfair', display;
+    float:left;
+    padding-top:5px;
+    margin-bottom:-10px;
+}
+
+p{
+    float:left;
+    font:300 20px/24px 'Raleway', sans-serif;
+    width:90%;
+    position:relative;
+    z-index:9999;
+}
+
+.section-1 .col-sm-8{
+    position:relative; 
+    overflow:hidden;
+}
+
+.section-1 .large-stripe{
+    height: 200px;
+    top: 0px;
+    left: -74px;
+    transform:rotate(33deg);
+}
+
+.section-1 .small-stripe{
+    transform:rotate(0deg);
+    top:30%
+}
+
+.section-1 img{
+    width:100%;
+    margin: 50px 0 20px
+}
+
+.col a{
+    position: relative;
+    z-index:9999;
+}
